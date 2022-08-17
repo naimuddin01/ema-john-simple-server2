@@ -16,7 +16,7 @@ app.use(cors())
 const port = 7000
 
 app.get('/', (req, res) => {
-    res.send("Helllo from db why it's not working hosse na")
+    res.send("mongodb can't connect heroku")
 })
 
 console.log(process.env.DB_USER, process.env.DB_PASS, process.env.DB_NAME)
