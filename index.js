@@ -90,4 +90,4 @@ client.connect(err => {
 
 
 
-app.listen(port) //process.env.PORT || eita heroKu er jonno
+app.listen(process.env.PORT || port) //process.env.PORT || eita heroKu er jonno (amra je port e project ta rum kortece onno kew tar pc te onno port e run korbe sei jonno)
