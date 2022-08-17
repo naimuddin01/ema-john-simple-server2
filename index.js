@@ -45,7 +45,7 @@ client.connect(err => {
 
 
     //ei khane all product get kortece
-    app.get('/Products', (req, res) => {
+    app.get('/products', (req, res) => {
         productCollection.find({}).limit(20)
         .toArray((err, documents) => {
             res.send(documents)
